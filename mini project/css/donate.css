@@ -1,0 +1,139 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #00C9A7, #005F73, #0A9396, #94D2BD, #E9D8A6);
+}
+
+header {
+    background-color: rgba(249, 252, 251, 0.9);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: rgb(23, 98, 109);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(37, 107, 109);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.donate {
+    text-align: center;
+    padding: 30px 20px;
+    background: linear-gradient(to right, #00C9A7, #005F73, #0A9396, #94D2BD, #E9D8A6);
+}
+
+.donate h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.donate p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.donation-form {
+    background-color: rgba(249, 252, 251, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.donation-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.donation-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.donation-form button:hover {
+    background-color: #388E3C;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Reduced the bottom margin */
+}
+
+.image-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}

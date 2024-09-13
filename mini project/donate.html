@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="css/donate.css">
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="js/map.js"></script>-->
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">Food Donation</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html" style="color: rgb(37, 107, 109);">Home</a></li>
+                    <li><a href="about.html" style="color: rgb(37, 107, 109);">About Us</a></li>
+                    <li><a href="donate.html" style="color: rgb(37, 107, 109);">Donate</a></li>
+                    <li><a href="recipients.php" style="color: rgb(37, 107, 109);">Recipients</a></li>
+                    <li><a href="login.html" style="color: rgb(37, 107, 109);">Signup | Login</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="donate">
+            <h1>Donate Food</h1>
+            <p>Your donations help us provide food to those in need. You can donate food to NGOs, orphanages, old age homes, and anganwadis.</p>
+
+            <div class="image-gallery">
+                <img src="pictures/three.jpg" alt="Food Donation 1">
+                <img src="pictures/four.jpg" alt="Food Donation 2">
+                <img src="pictures/five.jpg" alt="Food Donation 3">
+                <img src="pictures/six.jpg" alt="Food Donation 4">
+            </div>
+
+            <form action="donation.php" method="POST" class="donation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="food-type">Type of Food:</label>
+                <input type="text" id="food-type" name="food_type" required>
+
+                <label for="quantity">Quantity of Food:</label>
+                <input type="text" id="quantity" name="quantity" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <button type="submit">Submit Donation</button>
+            </form>
+        </section>
+
+        <div id="map"></div>
+
+        <footer>
+            <ul>
+                <li><a href="contact.html" style="color: rgb(37, 107, 109);">Contact</a></li>
+                <li><a href="privacy.html" style="color: rgb(37, 107, 109);">Privacy Policy</a></li>
+                <li><a href="terms.html" style="color: rgb(37, 107, 109);">Terms of Service</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

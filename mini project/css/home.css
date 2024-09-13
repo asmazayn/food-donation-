@@ -1,0 +1,200 @@
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #00C9A7, #005F73, #0A9396, #94D2BD, #E9D8A6);
+}
+
+header {
+    background-color: rgba(249, 252, 251, 0.9);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 80px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+header .logo span {
+    color: rgb(23, 98, 109);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.one, .two {
+    width: 200px;
+    height: 150px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #00C9A7, #005F73, #0A9396, #94D2BD, #E9D8A6);
+}
+
+.hero img, .hero video {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.cta-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #388E3C;
+}
+
+.quotes {
+    background-color: rgba(224, 224, 224, 0.9);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.about, .donate {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #00C9A7, #005F73, #0A9396, #94D2BD, #E9D8A6);
+}
+
+.about h1, .about h2, .donate h1, .donate h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.team, .partners {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member, .partners img {
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #388E3C;
+}
+
+/* New Styles for Images and Text Side by Side */
+.image-text-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.image-text img {
+    width: 200px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-text .text {
+    margin-top: 10px;
+    color: #fff;
+}
